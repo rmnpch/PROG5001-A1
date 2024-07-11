@@ -1,0 +1,13 @@
+Pseudocode 1
+
+1. Define variables for the number of students, mininum and maximum grades, collection of marks, and sum of the grades so that the average can be calculated
+2. Receive the marks through user input, signaling when they enter a mark that is not valid 
+3. When a valid mark is entered, add to the marks collection
+4. compare each grade with current min and max grades and replace accordingly
+5. After all grades were corrently received, print min and max values
+
+Pseudocode 2
+1. After all grades were received, calculate the mean/average by divididng the summation of all valid grades by the number of students
+2. With the mean, calculate the total variance by the sum of the square difference between each grade and the mean.
+3. With the total variance, the standard deviation can be determined by the square root of the division of the total variance by the number of students
+4. Output values for the mean, and standard variation to the user
