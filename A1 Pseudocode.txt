@@ -8,6 +8,9 @@ Pseudocode 1
 
 Pseudocode 2
 1. After all grades were received, calculate the mean/average by divididng the summation of all valid grades by the number of students
-2. With the mean, calculate the total variance by the sum of the square difference between each grade and the mean.
+2. With the mean, calculate the total variance by the sum of the square difference between each grade and the mean. 
+varianceTotal += Math.pow(mark - mean, 2);
 3. With the total variance, the standard deviation can be determined by the square root of the division of the total variance by the number of students
+standardDeviation = Math.sqrt(varianceTotal / numberOfStudents)
+
 4. Output values for the mean, and standard variation to the user
